@@ -1,0 +1,28 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="{{ site.bootstrapcss_href }}" integrity="{{ site.bootstrapcss_integrity }}" crossorigin="anonymous">
+    <script src="{{ site.jquery_src}}" integrity="{{ site.jquery_integrity}}" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ site.fontawesome_href }}" integrity="{{ site.fontawesome_integrity }}" crossorigin="anonymous">
+    {% seo %}
+    {% asset mainscss %}
+    {% include favicon.html %}
+</head>
+<body>
+    {% include navbar.html %}
+    {{ page.parent }}
+    {{ content }}
+    {% include footer.html %}
+    <script src="{{ site.popper_src}}" integrity="{{ site.popper_integrity}}" crossorigin="anonymous"></script>
+    <script src="{{ site.bootstrapjs_src}}" integrity="{{ site.bootstrapjs_integrity}}" crossorigin="anonymous"></script>
+    {% asset main %}
+    {% include scriptsjs.html %}
+</body>
+</html>
