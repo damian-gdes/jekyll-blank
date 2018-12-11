@@ -1,0 +1,9 @@
+_site
+_deploy
+.cache_folder
+.sass-cache
+.jekyll-metadata
+.asset-cache
+vendor/
+*.swp
+.jekyll-cache/
