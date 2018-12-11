@@ -1,0 +1,14 @@
+bootstrapcss_href: //stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css
+bootstrapcss_integrity: sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO
+
+jquery_src: //code.jquery.com/jquery-3.3.1.min.js
+jquery_integrity: sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=
+
+fontawesome_href: //use.fontawesome.com/releases/v5.0.13/css/all.css
+fontawesome_integrity: sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp
+
+popper_src: //cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js
+popper_integrity: sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49
+
+bootstrapjs_src: //stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js
+bootstrapjs_integrity: sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy

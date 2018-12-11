@@ -1,0 +1,76 @@
+
+title: site title to change # title of page
+email: email to change # email of author / contact
+author: page author # author of page
+description: >- # this means to ignore newlines until newline
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+keywords: keywords to change #
+lang: en # to change if necessary
+
+exclude: ['dev_serve_local.bat', 'build_production.bat', 'build_gdes.bat', 'Gemfile*', 'readme.md', 'vendor']
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-assets
+  - jekyll-seo-tag
+  - jekyll-feed
+
+assets:
+  image_optim:
+    default:
+      verbose: false
+    zero_png:
+      advpng:
+        level: 0
+      optipng:
+        level: 0
+      pngout:
+        strategy: 4
+  compress:
+    css: true
+    js: true
+    html: true
+  compression: true
+  digest: false
+  gzip: [ text/css, application/javascript ]
+  assets:
+    - "favicon.svg"
+    - "*.png"
+    - "*.jpg"
+    - "*.jpeg"
+    - "*.svg"
+    - "*.json"
+    - "*.xml"
+  sources:
+    - '_assets/'
+    - '_assets/js'
+    - '_assets/css'
+    - '_assets/images'
+    - '_assets/*'
+
+  features:
+     automatic_img_size: false
+
+
+collections:
+  static_pages:
+    output: true
+    permalink: /:path/
+  pages:
+    output: true
+    permalink: /:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages" # a collection in your site, in plural form
+    values:
+      layout: "default"
+      seo:
+        type: "Website"
